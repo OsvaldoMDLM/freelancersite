@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="shortcut icon" href="img/bitmojih.png">
+    <title>Contacto</title>
     <link rel="preload" href="style/normalize.css" as="style">
     <link rel="stylesheet" href="style/normalize.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -120,7 +121,7 @@
         </div>
 
 
-        <section>
+        <section >
             <h2>Contacto</h2>
             <form action="" class="formulario">
                 <fieldset>
@@ -129,29 +130,32 @@
                     <div class="contenedor-campos">
                         <div class="campo">
                             <label for="">Nombre</label>
-                            <input type="text" placeholder="Nombre">
+                            <input class="input-text" type="text" placeholder="Nombre">
+                        </div>
+
+                        <div class="campo">
+                            <label for="">Apellido</label>
+                            <input class="input-text" type="text" placeholder="Apellido">
                         </div>
 
                         <div class="campo">
                             <label for="">Telefono</label>
-                            <input type="tel" placeholder="Telefono">
-
+                            <input class="input-text" type="tel" placeholder="Telefono">
                         </div>
 
                         <div class="campo">
                             <label for="">Correo</label>
-                            <input type="email" placeholder="E-mail">
-
+                            <input class="input-text" type="email" placeholder="E-mail">
                         </div>
 
                         <div class="campo">
                             <label for="">Mensaje</label>
-                            <textarea></textarea>
+                            <textarea class="input-text"></textarea>
                         </div>
                     </div>
 
-                    <div>
-                        <input type="submit" value="Enviar">
+                    <div class="flex alinear-derecha">
+                        <input class="boton w-100" type="submit" value="Enviar">
                     </div>
 
 
@@ -160,7 +164,7 @@
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
         <p>Todos los derechos reservados Osvaldo Medina</p>
     </footer>
 </body>
